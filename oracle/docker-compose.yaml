@@ -4,7 +4,6 @@ services:
     image: oracleinanutshell/oracle-xe-11g:latest
     ports:
         - 1521:1521
-        - 5500:5500
     environment:
         - ORACLE_PASSWORD=oracle
     volumes:
