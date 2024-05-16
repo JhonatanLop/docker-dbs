@@ -47,6 +47,8 @@ Siga as etapas abaixo para executar um contêiner usando o Docker-compose:
 
 Isso iniciará o contêiner em segundo plano. Você pode verificar o status do contêiner usando o comando `docker ps`.
 
+Também é possivel iniciar uma conexão e trabalhar no banco de dados via terminal ou usando SQL Developer, Dbeaver ou qualquer outro sistema
+
 4. Para parar o contêiner, execute o comando:
 
     ```bash
