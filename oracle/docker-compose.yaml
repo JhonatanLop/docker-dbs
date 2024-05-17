@@ -7,6 +7,6 @@ services:
     environment:
         - ORACLE_PASSWORD=oracle
     volumes:
-        - ./oracle-data:/opt/oracle/fatec
+        - ./oracle-data:/u01/app/oracle/oradata
 volumes:
     oracle-data:
